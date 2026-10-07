@@ -2,7 +2,7 @@
   "mode": "browser",
   "engine": "Chromium",
   "url": "https://www.garageliving.com/",
-  "scannedAt": "2026-10-07T20:32:56.012Z",
+  "scannedAt": "2026-10-07T20:37:48.443Z",
   "consent": {
     "requested": true,
     "clicked": false
@@ -15,7 +15,7 @@
           "name": "__cf_bm",
           "domain": ".garageliving.com",
           "path": "/",
-          "expires": 1791406963,
+          "expires": 1791407256,
           "httpOnly": true,
           "secure": true,
           "sameSite": "None"
@@ -33,34 +33,7 @@
           "name": "__cf_bm",
           "domain": ".hubspotusercontent-na1.net",
           "path": "/",
-          "expires": 1791406964.1106,
-          "httpOnly": true,
-          "secure": true,
-          "sameSite": "None"
-        },
-        {
-          "name": "__cf_bm",
-          "domain": ".hsadspixel.net",
-          "path": "/",
-          "expires": 1791406964.92932,
-          "httpOnly": true,
-          "secure": true,
-          "sameSite": "None"
-        },
-        {
-          "name": "__cf_bm",
-          "domain": ".hs-analytics.net",
-          "path": "/",
-          "expires": 1791406964.958363,
-          "httpOnly": true,
-          "secure": true,
-          "sameSite": "None"
-        },
-        {
-          "name": "__cf_bm",
-          "domain": ".hs-banner.com",
-          "path": "/",
-          "expires": 1791406964.960091,
+          "expires": 1791407256.673261,
           "httpOnly": true,
           "secure": true,
           "sameSite": "None"
@@ -69,7 +42,34 @@
           "name": "__cf_bm",
           "domain": ".hubspot.com",
           "path": "/",
-          "expires": 1791406965.223937,
+          "expires": 1791407257.636619,
+          "httpOnly": true,
+          "secure": true,
+          "sameSite": "None"
+        },
+        {
+          "name": "__cf_bm",
+          "domain": ".hs-banner.com",
+          "path": "/",
+          "expires": 1791407257.801994,
+          "httpOnly": true,
+          "secure": true,
+          "sameSite": "None"
+        },
+        {
+          "name": "__cf_bm",
+          "domain": ".hsadspixel.net",
+          "path": "/",
+          "expires": 1791407257.811068,
+          "httpOnly": true,
+          "secure": true,
+          "sameSite": "None"
+        },
+        {
+          "name": "__cf_bm",
+          "domain": ".hs-analytics.net",
+          "path": "/",
+          "expires": 1791407257.859127,
           "httpOnly": true,
           "secure": true,
           "sameSite": "None"
@@ -78,7 +78,7 @@
           "name": "__hstc",
           "domain": ".garageliving.com",
           "path": "/",
-          "expires": 1806957165,
+          "expires": 1806957458,
           "httpOnly": false,
           "secure": false,
           "sameSite": "Lax"
@@ -87,7 +87,7 @@
           "name": "hubspotutk",
           "domain": ".garageliving.com",
           "path": "/",
-          "expires": 1806957165,
+          "expires": 1806957458,
           "httpOnly": false,
           "secure": false,
           "sameSite": "Lax"
@@ -105,16 +105,81 @@
           "name": "__hssc",
           "domain": ".garageliving.com",
           "path": "/",
-          "expires": 1791406965,
+          "expires": 1791407258,
           "httpOnly": false,
           "secure": false,
           "sameSite": "Lax"
+        },
+        {
+          "name": "__cf_bm",
+          "domain": ".hsforms.com",
+          "path": "/",
+          "expires": 1791407258.271294,
+          "httpOnly": true,
+          "secure": true,
+          "sameSite": "None"
+        },
+        {
+          "name": "_gcl_au",
+          "domain": ".garageliving.com",
+          "path": "/",
+          "expires": 1799181458,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Lax"
+        },
+        {
+          "name": "_ga_JZR8VW68BR",
+          "domain": ".garageliving.com",
+          "path": "/",
+          "expires": 1825965459.314044,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Lax"
+        },
+        {
+          "name": "_ga",
+          "domain": ".garageliving.com",
+          "path": "/",
+          "expires": 1825965459.314468,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Lax"
+        },
+        {
+          "name": "FPID",
+          "domain": ".garageliving.com",
+          "path": "/",
+          "expires": 1825965459.755802,
+          "httpOnly": true,
+          "secure": true,
+          "sameSite": "Lax"
+        },
+        {
+          "name": "FPLC",
+          "domain": ".garageliving.com",
+          "path": "/",
+          "expires": 1791477459.755802,
+          "httpOnly": false,
+          "secure": true,
+          "sameSite": "Lax"
+        },
+        {
+          "name": "FPGSID",
+          "domain": ".garageliving.com",
+          "path": "/",
+          "expires": 1791407259.755802,
+          "httpOnly": false,
+          "secure": true,
+          "sameSite": "Strict"
         }
       ],
       "frames": [
         {
           "url": "https://www.garageliving.com/",
-          "localStorageKeys": [],
+          "localStorageKeys": [
+            "_gcl_ls"
+          ],
           "sessionStorageKeys": [],
           "scriptCookieWrites": [
             {
@@ -134,7 +199,7 @@
             {
               "name": "__hstc",
               "attributes": [
-                "expires=Mon, 05 Apr 2027 20:32:45 GMT",
+                "expires=Mon, 05 Apr 2027 20:37:38 GMT",
                 "path=/",
                 "domain=.garageliving.com",
                 "SameSite=Lax"
@@ -143,7 +208,7 @@
             {
               "name": "hubspotutk",
               "attributes": [
-                "expires=Mon, 05 Apr 2027 20:32:45 GMT",
+                "expires=Mon, 05 Apr 2027 20:37:38 GMT",
                 "path=/",
                 "domain=.garageliving.com",
                 "SameSite=Lax"
@@ -160,14 +225,125 @@
             {
               "name": "__hssc",
               "attributes": [
-                "expires=Wed, 07 Oct 2026 21:02:45 GMT",
+                "expires=Wed, 07 Oct 2026 21:07:38 GMT",
                 "path=/",
                 "domain=.garageliving.com",
                 "SameSite=Lax"
               ]
+            },
+            {
+              "name": "_gcl_au",
+              "attributes": [
+                "path=/",
+                "expires=Tue, 05 Jan 2027 20:37:38 GMT",
+                "domain=garageliving.com"
+              ]
+            },
+            {
+              "name": "_ga_JZR8VW68BR",
+              "attributes": [
+                "expires=Thu, 01 Jan 1970 00:00:00 GMT",
+                "path=/",
+                "expires=Fri, 06 Oct 2028 20:37:39 GMT",
+                "domain=garageliving.com",
+                ""
+              ]
+            },
+            {
+              "name": "_ga_JZR8VW68BR",
+              "attributes": [
+                "path=/",
+                "expires=Fri, 06 Oct 2028 20:37:39 GMT",
+                "domain=garageliving.com",
+                ""
+              ]
+            },
+            {
+              "name": "_ga",
+              "attributes": [
+                "path=/",
+                "expires=Fri, 06 Oct 2028 20:37:39 GMT",
+                "domain=garageliving.com",
+                ""
+              ]
             }
           ],
           "scripts": [
+            {
+              "src": "https://www.clarity.ms/tag/r7mepbfxlx",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://data.garageliving.com/gtag/js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://132140.tctm.co/t.js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://s.pinimg.com/ct/core.js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtm.js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://connect.facebook.net/en_US/fbevents.js",
+              "inline": false,
+              "type": "classic"
+            },
             {
               "src": "https://data.garageliving.com/gtm.js",
               "inline": false,
@@ -184,7 +360,7 @@
               "type": "text/javascript"
             },
             {
-              "src": "https://js.hs-analytics.net/analytics/1791405000000/20164216.js",
+              "src": "https://js.hs-analytics.net/analytics/1791405300000/20164216.js",
               "inline": false,
               "type": "text/javascript"
             },
@@ -222,6 +398,16 @@
               "src": null,
               "inline": true,
               "type": "classic"
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": "https://www.clickcease.com/monitor/stat.js",
+              "inline": false,
+              "type": "text/javascript"
             },
             {
               "src": "https://www.garageliving.com/hubfs/hub_generated/template_assets/1/99809983130/1791316486501/template_main.min.js",
@@ -311,6 +497,53 @@
             {
               "src": "https://www.garageliving.com/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js",
               "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": "https://towntag.co/ae92f3e0-0bb2-4729-91fb-d86087d45e07/t.js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": null,
+              "inline": true,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://cdn.searchkings.ca/galaxy/galaxy.min.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": null,
+              "inline": true,
+              "type": "text/javascript"
+            },
+            {
+              "src": null,
+              "inline": true,
+              "type": "text/javascript"
+            }
+          ]
+        },
+        {
+          "url": "(non-HTTP frame)",
+          "localStorageKeys": [
+            "_gcl_ls"
+          ],
+          "sessionStorageKeys": [],
+          "scriptCookieWrites": [],
+          "scripts": []
+        },
+        {
+          "url": "https://data.garageliving.com/_/service_worker/6a60/sw_iframe.html",
+          "localStorageKeys": [],
+          "sessionStorageKeys": [],
+          "scriptCookieWrites": [],
+          "scripts": [
+            {
+              "src": null,
+              "inline": true,
               "type": "classic"
             }
           ]
@@ -905,55 +1138,16 @@
       "pixelCandidate": false
     },
     {
-      "url": "https://js.hubspot.com/web-interactives-embed.js",
-      "type": "script",
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/206124843888/1783586738043/module_hd-bento-switchback.min.js",
+      "type": "other",
       "method": "GET",
       "phase": "before-consent",
       "outcome": "loaded",
       "status": 200,
-      "host": "js.hubspot.com",
-      "thirdParty": true,
-      "provider": "HubSpot",
-      "category": "marketing",
-      "pixelCandidate": false
-    },
-    {
-      "url": "https://js.hs-analytics.net/analytics/1791405000000/20164216.js",
-      "type": "script",
-      "method": "GET",
-      "phase": "before-consent",
-      "outcome": "loaded",
-      "status": 200,
-      "host": "js.hs-analytics.net",
-      "thirdParty": true,
-      "provider": "HubSpot Analytics",
-      "category": "analytics",
-      "pixelCandidate": false
-    },
-    {
-      "url": "https://js.hsadspixel.net/pixels.js",
-      "type": "script",
-      "method": "GET",
-      "phase": "before-consent",
-      "outcome": "loaded",
-      "status": 200,
-      "host": "js.hsadspixel.net",
-      "thirdParty": true,
-      "provider": "HubSpot advertising pixel",
-      "category": "advertising",
-      "pixelCandidate": false
-    },
-    {
-      "url": "https://js.hs-banner.com/v2/20164216/banner.js",
-      "type": "script",
-      "method": "GET",
-      "phase": "before-consent",
-      "outcome": "loaded",
-      "status": 200,
-      "host": "js.hs-banner.com",
-      "thirdParty": true,
-      "provider": "HubSpot consent",
-      "category": "consent",
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
       "pixelCandidate": false
     },
     {
@@ -1074,8 +1268,47 @@
       "pixelCandidate": false
     },
     {
-      "url": "https://js.hs-banner.com/v2/cf-location",
-      "type": "fetch",
+      "url": "https://js.hubspot.com/web-interactives-embed.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hubspot.com",
+      "thirdParty": true,
+      "provider": "HubSpot",
+      "category": "marketing",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hs-analytics.net/analytics/1791405300000/20164216.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hs-analytics.net",
+      "thirdParty": true,
+      "provider": "HubSpot Analytics",
+      "category": "analytics",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hsadspixel.net/pixels.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hsadspixel.net",
+      "thirdParty": true,
+      "provider": "HubSpot advertising pixel",
+      "category": "advertising",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hs-banner.com/v2/20164216/banner.js",
+      "type": "script",
       "method": "GET",
       "phase": "before-consent",
       "outcome": "loaded",
@@ -1091,8 +1324,8 @@
       "type": "fetch",
       "method": "GET",
       "phase": "before-consent",
-      "outcome": "blocked",
-      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "outcome": "loaded",
+      "status": 200,
       "host": "cta-service-cms2.hubspot.com",
       "thirdParty": true,
       "provider": "HubSpot",
@@ -1100,16 +1333,16 @@
       "pixelCandidate": false
     },
     {
-      "url": "https://perf-na1.hsforms.com/embed/v3/counters.gif",
-      "type": "image",
+      "url": "https://js.hs-banner.com/v2/cf-location",
+      "type": "fetch",
       "method": "GET",
       "phase": "before-consent",
-      "outcome": "blocked",
-      "reason": "Host not in SCAN_ALLOWED_HOSTS",
-      "host": "perf-na1.hsforms.com",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hs-banner.com",
       "thirdParty": true,
-      "provider": null,
-      "category": "unclassified",
+      "provider": "HubSpot consent",
+      "category": "consent",
       "pixelCandidate": false
     },
     {
@@ -1117,8 +1350,8 @@
       "type": "fetch",
       "method": "GET",
       "phase": "before-consent",
-      "outcome": "blocked",
-      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "outcome": "loaded",
+      "status": 200,
       "host": "sa.searchatlas.com",
       "thirdParty": true,
       "provider": null,
@@ -1130,38 +1363,12 @@
       "type": "image",
       "method": "GET",
       "phase": "before-consent",
-      "outcome": "blocked",
-      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "outcome": "loaded",
+      "status": 200,
       "host": "track.hubspot.com",
       "thirdParty": true,
       "provider": "HubSpot",
       "category": "marketing",
-      "pixelCandidate": false
-    },
-    {
-      "url": "https://data.garageliving.com/gtm.js",
-      "type": "script",
-      "method": "GET",
-      "phase": "before-consent",
-      "outcome": "blocked",
-      "reason": "Host not in SCAN_ALLOWED_HOSTS",
-      "host": "data.garageliving.com",
-      "thirdParty": false,
-      "provider": null,
-      "category": "unclassified",
-      "pixelCandidate": false
-    },
-    {
-      "url": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json",
-      "type": "xhr",
-      "method": "GET",
-      "phase": "before-consent",
-      "outcome": "blocked",
-      "reason": "Host not in SCAN_ALLOWED_HOSTS",
-      "host": "api.hubapi.com",
-      "thirdParty": true,
-      "provider": null,
-      "category": "unclassified",
       "pixelCandidate": false
     },
     {
@@ -1176,6 +1383,409 @@
       "provider": null,
       "category": "unclassified",
       "pixelCandidate": false
+    },
+    {
+      "url": "https://perf-na1.hsforms.com/embed/v3/counters.gif",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "perf-na1.hsforms.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://data.garageliving.com/gtm.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "data.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json",
+      "type": "xhr",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "api.hubapi.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "connect.facebook.net",
+      "thirdParty": true,
+      "provider": "Meta Pixel",
+      "category": "advertising",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://s.pinimg.com/ct/core.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "s.pinimg.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://132140.tctm.co/t.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "132140.tctm.co",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://data.garageliving.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "data.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://towntag.co/ae92f3e0-0bb2-4729-91fb-d86087d45e07/t.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "towntag.co",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://cdn.searchkings.ca/galaxy/galaxy.min.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "cdn.searchkings.ca",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.clickcease.com/monitor/stat.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.clickcease.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.google.com/ccm/collect",
+      "type": "fetch",
+      "method": "POST",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.google.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": true
+    },
+    {
+      "url": "https://ad.doubleclick.net/ccm/s/collect",
+      "type": "fetch",
+      "method": "POST",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "ad.doubleclick.net",
+      "thirdParty": true,
+      "provider": "Google advertising",
+      "category": "advertising",
+      "pixelCandidate": true
+    },
+    {
+      "url": "https://cnv.event.prod.bidr.io/log/cnv",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "cnv.event.prod.bidr.io",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.clarity.ms/tag/r7mepbfxlx",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.clarity.ms",
+      "thirdParty": true,
+      "provider": "Microsoft Clarity",
+      "category": "session analytics",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.google.com/ccm/collect",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.google.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": true
+    },
+    {
+      "url": "https://ad.doubleclick.net/ccm/s/collect",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "ad.doubleclick.net",
+      "thirdParty": true,
+      "provider": "Google advertising",
+      "category": "advertising",
+      "pixelCandidate": true
+    },
+    {
+      "url": "https://data.garageliving.com/g/collect",
+      "type": "fetch",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "data.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": true
+    },
+    {
+      "url": "https://data.garageliving.com/_/service_worker/6a60/sw_iframe.html",
+      "type": "document",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "data.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://analytics.google.com/g/s/collect",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "analytics.google.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": true
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/g/collect",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "stats.g.doubleclick.net",
+      "thirdParty": true,
+      "provider": "Google advertising",
+      "category": "advertising",
+      "pixelCandidate": true
     }
   ],
   "cookies": [
@@ -1188,9 +1798,9 @@
         "secure": true,
         "path": "/",
         "domain": "garageliving.com",
-        "expires": "Wed, 07 Oct 2026 21:02:43 GMT"
+        "expires": "Wed, 07 Oct 2026 21:07:36 GMT"
       },
-      "lifetimeSeconds": 1799,
+      "lifetimeSeconds": 1800,
       "findings": [
         {
           "level": "itp",
@@ -1237,9 +1847,9 @@
         "secure": true,
         "path": "/",
         "domain": "hubspotusercontent-na1.net",
-        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+        "expires": "Wed, 07 Oct 2026 21:07:36 GMT"
       },
-      "lifetimeSeconds": 1800,
+      "lifetimeSeconds": 1799,
       "findings": [
         {
           "level": "itp",
@@ -1262,9 +1872,9 @@
         "secure": true,
         "path": "/",
         "domain": "hubspotusercontent.com",
-        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+        "expires": "Wed, 07 Oct 2026 21:07:36 GMT"
       },
-      "lifetimeSeconds": 1800,
+      "lifetimeSeconds": 1799,
       "findings": [
         {
           "level": "itp",
@@ -1287,9 +1897,9 @@
         "secure": true,
         "path": "/",
         "domain": "hubspotusercontent.com",
-        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+        "expires": "Wed, 07 Oct 2026 21:07:36 GMT"
       },
-      "lifetimeSeconds": 1800,
+      "lifetimeSeconds": 1799,
       "findings": [
         {
           "level": "itp",
@@ -1312,7 +1922,7 @@
         "secure": true,
         "path": "/",
         "domain": "hubspotusercontent.com",
-        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+        "expires": "Wed, 07 Oct 2026 21:07:37 GMT"
       },
       "lifetimeSeconds": 1800,
       "findings": [
@@ -1337,7 +1947,7 @@
         "secure": true,
         "path": "/",
         "domain": "hubspotusercontent.com",
-        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+        "expires": "Wed, 07 Oct 2026 21:07:37 GMT"
       },
       "lifetimeSeconds": 1800,
       "findings": [
@@ -1362,34 +1972,9 @@
         "secure": true,
         "path": "/",
         "domain": "hubspotusercontent.com",
-        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+        "expires": "Wed, 07 Oct 2026 21:07:37 GMT"
       },
-      "lifetimeSeconds": 1799,
-      "findings": [
-        {
-          "level": "itp",
-          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
-        },
-        {
-          "level": "itp",
-          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
-        }
-      ],
-      "phase": "before-consent",
-      "origin": "response-header"
-    },
-    {
-      "name": "__cf_bm",
-      "source": "https://www.garageliving.com/hs/scriptloader/20164216.js",
-      "attributes": {
-        "httponly": true,
-        "samesite": "None",
-        "secure": true,
-        "path": "/",
-        "domain": "hs-scripts.com",
-        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
-      },
-      "lifetimeSeconds": 1799,
+      "lifetimeSeconds": 1800,
       "findings": [
         {
           "level": "itp",
@@ -1412,7 +1997,57 @@
         "secure": true,
         "path": "/",
         "domain": "hubspotusercontent.com",
-        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+        "expires": "Wed, 07 Oct 2026 21:07:37 GMT"
+      },
+      "lifetimeSeconds": 1800,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://www.garageliving.com/hs/scriptloader/20164216.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hs-scripts.com",
+        "expires": "Wed, 07 Oct 2026 21:07:37 GMT"
+      },
+      "lifetimeSeconds": 1800,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://app.hubspot.com/content-tools-menu/api/v1/tools-menu/has-permission-json",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hubspot.com",
+        "expires": "Wed, 07 Oct 2026 21:07:37 GMT"
       },
       "lifetimeSeconds": 1799,
       "findings": [
@@ -1437,57 +2072,7 @@
         "secure": true,
         "path": "/",
         "domain": "hubspot.com",
-        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
-      },
-      "lifetimeSeconds": 1799,
-      "findings": [
-        {
-          "level": "itp",
-          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
-        },
-        {
-          "level": "itp",
-          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
-        }
-      ],
-      "phase": "before-consent",
-      "origin": "response-header"
-    },
-    {
-      "name": "__cf_bm",
-      "source": "https://js.hsadspixel.net/pixels.js",
-      "attributes": {
-        "httponly": true,
-        "samesite": "None",
-        "secure": true,
-        "path": "/",
-        "domain": "hsadspixel.net",
-        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
-      },
-      "lifetimeSeconds": 1799,
-      "findings": [
-        {
-          "level": "itp",
-          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
-        },
-        {
-          "level": "itp",
-          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
-        }
-      ],
-      "phase": "before-consent",
-      "origin": "response-header"
-    },
-    {
-      "name": "__cf_bm",
-      "source": "https://js.hs-analytics.net/analytics/1791405000000/20164216.js",
-      "attributes": {
-        "httponly": true,
-        "samesite": "None",
-        "secure": true,
-        "path": "/",
-        "domain": "hs-analytics.net",
-        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+        "expires": "Wed, 07 Oct 2026 21:07:37 GMT"
       },
       "lifetimeSeconds": 1799,
       "findings": [
@@ -1512,7 +2097,7 @@
         "secure": true,
         "path": "/",
         "domain": "hs-banner.com",
-        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+        "expires": "Wed, 07 Oct 2026 21:07:37 GMT"
       },
       "lifetimeSeconds": 1799,
       "findings": [
@@ -1530,16 +2115,66 @@
     },
     {
       "name": "__cf_bm",
-      "source": "https://app.hubspot.com/content-tools-menu/api/v1/tools-menu/has-permission-json",
+      "source": "https://js.hsadspixel.net/pixels.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hsadspixel.net",
+        "expires": "Wed, 07 Oct 2026 21:07:37 GMT"
+      },
+      "lifetimeSeconds": 1799,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://js.hs-analytics.net/analytics/1791405300000/20164216.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hs-analytics.net",
+        "expires": "Wed, 07 Oct 2026 21:07:37 GMT"
+      },
+      "lifetimeSeconds": 1799,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
       "attributes": {
         "httponly": true,
         "samesite": "None",
         "secure": true,
         "path": "/",
         "domain": "hubspot.com",
-        "expires": "Wed, 07 Oct 2026 21:02:45 GMT"
+        "expires": "Wed, 07 Oct 2026 21:07:37 GMT"
       },
-      "lifetimeSeconds": 1800,
+      "lifetimeSeconds": 1799,
       "findings": [
         {
           "level": "itp",
@@ -1562,10 +2197,147 @@
         "secure": true,
         "path": "/",
         "domain": "hs-banner.com",
-        "expires": "Wed, 07 Oct 2026 21:02:45 GMT"
+        "expires": "Wed, 07 Oct 2026 21:07:37 GMT"
+      },
+      "lifetimeSeconds": 1799,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hubapi.com",
+        "expires": "Wed, 07 Oct 2026 21:07:38 GMT"
       },
       "lifetimeSeconds": 1800,
       "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://perf-na1.hsforms.com/embed/v3/counters.gif",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hsforms.com",
+        "expires": "Wed, 07 Oct 2026 21:07:38 GMT"
+      },
+      "lifetimeSeconds": 1800,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "FPID",
+      "source": "https://data.garageliving.com/g/collect",
+      "attributes": {
+        "max-age": "63072000",
+        "domain": "garageliving.com",
+        "path": "/",
+        "secure": true,
+        "httponly": true
+      },
+      "lifetimeSeconds": 63072000,
+      "findings": [
+        {
+          "level": "info",
+          "message": "SameSite is unspecified; modern browsers generally default to Lax."
+        },
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "FPLC",
+      "source": "https://data.garageliving.com/g/collect",
+      "attributes": {
+        "max-age": "72000",
+        "domain": "garageliving.com",
+        "path": "/",
+        "secure": true
+      },
+      "lifetimeSeconds": 72000,
+      "findings": [
+        {
+          "level": "info",
+          "message": "JavaScript can access this cookie; HttpOnly protects cookies that do not need script access."
+        },
+        {
+          "level": "info",
+          "message": "SameSite is unspecified; modern browsers generally default to Lax."
+        },
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "FPGSID",
+      "source": "https://data.garageliving.com/g/collect",
+      "attributes": {
+        "max-age": "1800",
+        "domain": "garageliving.com",
+        "path": "/",
+        "samesite": "strict",
+        "secure": true
+      },
+      "lifetimeSeconds": 1800,
+      "findings": [
+        {
+          "level": "info",
+          "message": "JavaScript can access this cookie; HttpOnly protects cookies that do not need script access."
+        },
         {
           "level": "itp",
           "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
@@ -1594,6 +2366,19 @@
       "pixelCandidate": false
     },
     {
+      "url": "https://app.hubspot.com/content-tools-menu/api/v1/tools-menu/has-permission-json",
+      "type": "xhr",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 204,
+      "host": "app.hubspot.com",
+      "thirdParty": true,
+      "provider": "HubSpot",
+      "category": "marketing",
+      "pixelCandidate": false
+    },
+    {
       "url": "https://js.hubspot.com/web-interactives-embed.js",
       "type": "script",
       "method": "GET",
@@ -1607,7 +2392,7 @@
       "pixelCandidate": false
     },
     {
-      "url": "https://js.hs-analytics.net/analytics/1791405000000/20164216.js",
+      "url": "https://js.hs-analytics.net/analytics/1791405300000/20164216.js",
       "type": "script",
       "method": "GET",
       "phase": "before-consent",
@@ -1646,13 +2431,13 @@
       "pixelCandidate": false
     },
     {
-      "url": "https://app.hubspot.com/content-tools-menu/api/v1/tools-menu/has-permission-json",
-      "type": "xhr",
+      "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+      "type": "fetch",
       "method": "GET",
       "phase": "before-consent",
       "outcome": "loaded",
-      "status": 204,
-      "host": "app.hubspot.com",
+      "status": 200,
+      "host": "cta-service-cms2.hubspot.com",
       "thirdParty": true,
       "provider": "HubSpot",
       "category": "marketing",
@@ -1672,30 +2457,277 @@
       "pixelCandidate": false
     },
     {
-      "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
-      "type": "fetch",
+      "url": "https://track.hubspot.com/__ptq.gif",
+      "type": "image",
       "method": "GET",
       "phase": "before-consent",
-      "outcome": "blocked",
-      "reason": "Host not in SCAN_ALLOWED_HOSTS",
-      "host": "cta-service-cms2.hubspot.com",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "track.hubspot.com",
       "thirdParty": true,
       "provider": "HubSpot",
       "category": "marketing",
       "pixelCandidate": false
     },
     {
-      "url": "https://track.hubspot.com/__ptq.gif",
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "connect.facebook.net",
+      "thirdParty": true,
+      "provider": "Meta Pixel",
+      "category": "advertising",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.googletagmanager.com",
+      "thirdParty": true,
+      "provider": "Google Tag Manager",
+      "category": "tag manager",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.google.com/ccm/collect",
+      "type": "fetch",
+      "method": "POST",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.google.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": true
+    },
+    {
+      "url": "https://ad.doubleclick.net/ccm/s/collect",
+      "type": "fetch",
+      "method": "POST",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "ad.doubleclick.net",
+      "thirdParty": true,
+      "provider": "Google advertising",
+      "category": "advertising",
+      "pixelCandidate": true
+    },
+    {
+      "url": "https://www.clarity.ms/tag/r7mepbfxlx",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "www.clarity.ms",
+      "thirdParty": true,
+      "provider": "Microsoft Clarity",
+      "category": "session analytics",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.google.com/ccm/collect",
       "type": "image",
       "method": "GET",
       "phase": "before-consent",
       "outcome": "blocked",
       "reason": "Host not in SCAN_ALLOWED_HOSTS",
-      "host": "track.hubspot.com",
+      "host": "www.google.com",
       "thirdParty": true,
-      "provider": "HubSpot",
-      "category": "marketing",
-      "pixelCandidate": false
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": true
+    },
+    {
+      "url": "https://ad.doubleclick.net/ccm/s/collect",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "ad.doubleclick.net",
+      "thirdParty": true,
+      "provider": "Google advertising",
+      "category": "advertising",
+      "pixelCandidate": true
+    },
+    {
+      "url": "https://data.garageliving.com/g/collect",
+      "type": "fetch",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "data.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": true
+    },
+    {
+      "url": "https://analytics.google.com/g/s/collect",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "analytics.google.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": true
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/g/collect",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "stats.g.doubleclick.net",
+      "thirdParty": true,
+      "provider": "Google advertising",
+      "category": "advertising",
+      "pixelCandidate": true
     }
   ],
   "warnings": [

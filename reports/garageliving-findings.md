@@ -1,95 +1,113 @@
-# Garage Living cookie and tracking audit
+# Garage Living tracking audit — expanded allowlist
 
-Scan completed October 7, 2026 at 4:32:56 PM America/New_York (20:32:56 UTC).
+Scan: 2026-10-07T20:37:48.443Z (October 7, 2026, 4:37:48 PM America/New_York).
 
-## Result
+## Findings
 
-The homepage loads Hotjar and HubSpot scripts and creates HubSpot analytics cookies through JavaScript. This is substantially more tracking evidence than the original response-header scan, which only observed Cloudflare cookies. These observations do **not** establish Safari ITP compliance or that all tracking requests succeeded.
+This fresh Chromium run observed HubSpot analytics, a successful HubSpot image beacon response, and a same-site tag/collection endpoint at data.garageliving.com. JavaScript wrote HubSpot and Google analytics/advertising cookies before any successful automated consent interaction. This is browser evidence, not a Safari ITP compliance certification or a determination of legal consent compliance.
 
-The expanded allowed-host list was applied to this run. Network permission changes alone had not updated the running scanner's separate SCAN_ALLOWED_HOSTS list; the scan explicitly supplied the previously approved hosts.
+Compared with the previous run: 95 network attempts (previously 66), 18 stored cookie entries (previously 11), and 51 main-frame script elements (previously 29). The six previously discovered hosts were included in the scanner trusted-host list for this run.
 
-## Method and coverage
+## Coverage and outcomes
 
-- Fresh Chromium session; GET navigation from `https://garageliving.com/` to `https://www.garageliving.com/`.
-- Eight-second observation window following initial DOM navigation; no previous browser interaction/history.
-- Recorded request URLs without queries, outcomes, script elements, cookie metadata, JavaScript cookie writes, and accessible frame storage keys. Values were omitted.
-- Attempted to click the HubSpot consent selector `#hs-eu-confirmation-button`; it was not clickable within the allotted time. No post-consent snapshot was collected. This is not proof that the site lacks a consent banner: geography, configuration, timing, and page behavior can affect availability.
-- A request recorded as `loaded` means an HTTP response below 400 was fetched and delivered to the browser. It does not prove script execution, CORS acceptance, data processing, or successful event ingestion.
-
-| Observation | Count |
+| Metric | Count |
 |---|---:|
-| Captured network attempts | 66 |
-| Responses below HTTP 400 | 55 |
-| HTTP error responses | 2 |
-| Scanner-blocked/failed requests | 9 |
-| Script elements in main-frame snapshot | 29 (8 inline) |
-| Stored cookie entries | 11 (6 distinct names across domains) |
-| Known-provider request candidates | 9 |
+| Network attempts | 95 |
+| loaded | 65 |
+| http-error | 2 |
+| blocked | 28 |
 
-## Tracking scripts and pixel evidence
+An eight-second observation window was used after initial DOM navigation. The selector #hs-eu-confirmation-button could not be clicked within the allotted time. There is no post-consent comparison; this does not prove the site lacks a banner. Geography, configuration, timing and resource availability can affect consent controls. “Loaded” means a response below HTTP 400 was fetched and delivered, not proof of event ingestion or script execution.
 
-| Resource | Observed result | Interpretation |
-|---|---|---|
-| `static.hotjar.com/c/hotjar-3779999.js` | HTTP 200 | Hotjar script fetched; session-recording activity not established by this alone. |
-| `js.hs-analytics.net/analytics/.../20164216.js` | HTTP 200 | HubSpot analytics script fetched; JavaScript cookie writes corroborate analytics initialization. |
-| `js.hsadspixel.net/pixels.js` | HTTP 200 | HubSpot advertising pixel loader fetched; individual ad-platform pixels cannot be inferred from the loader alone. |
-| `js.hubspot.com/web-interactives-embed.js` | HTTP 200 | HubSpot marketing/interactive loader fetched. |
-| `js.hs-banner.com/v2/20164216/banner.js` and `/v2/cf-location` | HTTP 200 | Consent/geolocation resources fetched, but the selected consent button could not be clicked. |
-| `app.hubspot.com/.../has-permission-json` | HTTP 204 | HubSpot tools-menu request; not proof of an analytics event. |
-| `track.hubspot.com/__ptq.gif` | Blocked by scanner allowlist | Actual image/pixel request attempted; transmission was prevented by the scanner, not shown to be blocked by Safari. |
-| `perf-na1.hsforms.com/embed/v3/counters.gif` | Blocked by scanner allowlist | Image counter endpoint attempted; payload and purpose not fully inspected. |
-| `data.garageliving.com/gtm.js` | Blocked by scanner allowlist | Same-site tag-loader path attempted. The filename suggests a tag manager; implementation and underlying infrastructure remain unverified. |
+## Requests that now succeed
 
-The requests above occurred before any successful automated consent interaction. This describes the observation sequence; it is **not** a legal compliance determination or proof that the site's consent defaults forbid tracking.
+| Endpoint | Observed result |
+|---|---|
+| https://track.hubspot.com/__ptq.gif | loaded, HTTP 200 |
+| https://data.garageliving.com/gtm.js | loaded, HTTP 200 |
+| https://data.garageliving.com/gtag/js | loaded, HTTP 200 |
+| https://data.garageliving.com/g/collect | loaded, HTTP 200 |
+| https://perf-na1.hsforms.com/embed/v3/counters.gif | loaded, HTTP 200 |
+| https://sa.searchatlas.com/api/v2/otto-url-details/ | loaded, HTTP 200 |
 
-## Cookies
+Hotjar and HubSpot analytics/ad-loader/consent scripts also returned HTTP 200. A g/collect response does not prove what the receiving service does with the data. The same-site tag and collection paths plus FP-prefixed cookies are consistent with a first-party analytics setup; DNS/CNAME topology and server-side onward destinations were not inspected.
 
-The script-write instrumentation directly recorded writes for the four HubSpot analytics cookies below, plus a temporary `cookietest` cookie that was subsequently expired.
+## Browser cookies
 
-| Cookie | Domain | Observed lifetime | Secure | HttpOnly | SameSite | Source evidence |
-|---|---|---|---|---|---|---|
-| `__hstc` | `.garageliving.com` | About 180 days requested | No | No | Lax | JavaScript write and browser storage |
-| `hubspotutk` | `.garageliving.com` | About 180 days requested | No | No | Lax | JavaScript write and browser storage |
-| `__hssc` | `.garageliving.com` | About 30 minutes requested | No | No | Lax | JavaScript write and browser storage |
-| `__hssrc` | `.garageliving.com` | Session | No | No | Lax | JavaScript write and browser storage |
-| `__cf_bm` | `.garageliving.com` plus five HubSpot-related domains | About 30 minutes | Yes | Yes | None | Response headers/browser storage |
-| `_cfuvid` | `.garageliving.com` | Session | Yes | Yes | None | Response headers/browser storage |
+Cookie values are omitted. Lifetimes below are remaining requested expirations at scan time, not measured Safari retention.
 
-The other `__cf_bm` domains were `.hubspotusercontent-na1.net`, `.hsadspixel.net`, `.hs-analytics.net`, `.hs-banner.com`, and `.hubspot.com`.
+| Cookie | Domain | Approximate lifetime | Secure | HttpOnly | SameSite |
+|---|---|---|---|---|---|
+| __cf_bm | .garageliving.com | 30 minutes | Yes | Yes | None |
+| _cfuvid | .garageliving.com | session | Yes | Yes | None |
+| __cf_bm | .hubspotusercontent-na1.net | 30 minutes | Yes | Yes | None |
+| __cf_bm | .hubspot.com | 30 minutes | Yes | Yes | None |
+| __cf_bm | .hs-banner.com | 30 minutes | Yes | Yes | None |
+| __cf_bm | .hsadspixel.net | 30 minutes | Yes | Yes | None |
+| __cf_bm | .hs-analytics.net | 30 minutes | Yes | Yes | None |
+| __hstc | .garageliving.com | 180 days | No | No | Lax |
+| hubspotutk | .garageliving.com | 180 days | No | No | Lax |
+| __hssrc | .garageliving.com | session | No | No | Lax |
+| __hssc | .garageliving.com | 30 minutes | No | No | Lax |
+| __cf_bm | .hsforms.com | 30 minutes | Yes | Yes | None |
+| _gcl_au | .garageliving.com | 90 days | No | No | Lax |
+| _ga_JZR8VW68BR | .garageliving.com | 400 days | No | No | Lax |
+| _ga | .garageliving.com | 400 days | No | No | Lax |
+| FPID | .garageliving.com | 400 days | Yes | Yes | Lax |
+| FPLC | .garageliving.com | 1200 minutes | Yes | No | Lax |
+| FPGSID | .garageliving.com | 30 minutes | Yes | No | Strict |
 
-No localStorage or sessionStorage keys were present in the accessible main-frame snapshot. This only covers the observed window; blocked/delayed resources or subsequent interactions can change storage.
+Script-write instrumentation recorded __hstc, hubspotutk, __hssrc, __hssc, _gcl_au, _ga_JZR8VW68BR and _ga. A temporary cookietest cookie was created and expired. FPID, FPLC and FPGSID were observed in response headers from data.garageliving.com/g/collect; they must not be treated as JavaScript-created cookies.
 
-## Safari ITP implications
+## Storage
 
-1. **The requested 180-day lifetimes are not reliable Safari lifetimes.** `__hstc` and `hubspotutk` were written through JavaScript. Safari can remove script-writable storage after seven days without user interaction, measured in days of Safari use. Shorter limits can apply in particular tracking contexts; this scan does not establish those conditions.
-2. **Third-party cookies generally cannot be relied on in Safari.** Chromium stored cookies on HubSpot-related domains. Safari's default third-party cookie blocking can prevent their use regardless of `SameSite=None; Secure`. Actual embedded context and exceptions need Safari testing.
-3. **Cookie restrictions do not automatically prevent pixel requests.** The HubSpot image beacon attempt is distinct from whether identifiers can be stored or sent. Verify what requests and identifiers Safari actually allows.
-4. **A same-site tag-loader URL is not proof of ITP resistance.** `data.garageliving.com/gtm.js` needs DNS/CNAME, endpoint, and browser inspection before making claims about cloaked tracking or server-side tagging.
-5. **Secure is absent from the observed HubSpot script cookies.** Consider supported vendor configuration to restrict transmission to HTTPS. HttpOnly would prevent JavaScript access and cannot simply be added to script-created analytics cookies without redesign.
+The main frame had localStorage key `_gcl_ls`. Session storage was empty in accessible snapshots. A same-site frame at data.garageliving.com/_/service_worker/6a60/sw_iframe.html loaded; the scanner blocks actual service workers, so this is not proof that a worker ran. Storage values are omitted.
 
-## Remaining gaps and failed resources
+## Safari ITP interpretation
 
-Six new downstream hosts were discovered that are not in the scanner's trusted-host list:
+- The script-created HubSpot identifiers requested approximately 180 days; _ga cookies approximately 400 days and _gcl_au approximately 90 days. Safari may remove script-writable storage after seven days without interaction, measured in days of Safari use. The same conditional concern applies to localStorage. This run does not establish shorter link-decoration or tracking-classification conditions.
+- FPID is Secure and HttpOnly and was set by a server response. Do not automatically apply the script-cookie seven-day rule to it. Cloaked-tracking restrictions can affect some server responses; DNS/classification evidence is needed.
+- Chromium stored cross-site Cloudflare cookies on HubSpot-related domains. Safari generally blocks third-party cookies regardless of SameSite=None/Secure; Chromium acceptance does not prove Safari acceptance.
+- ITP is not a blanket block on analytics network requests. The successful same-site collection response and HubSpot image beacon are separate from cookie acceptance and identifier persistence. Actual Safari requests and lifetimes must be tested.
+- Observed script-created analytics cookies lack Secure. Review supported vendor settings; HttpOnly cannot simply be added to JavaScript cookies without changing their design.
 
-- `cta-service-cms2.hubspot.com`
-- `perf-na1.hsforms.com`
-- `sa.searchatlas.com`
-- `track.hubspot.com`
-- `data.garageliving.com`
-- `api.hubapi.com`
+## New blocked downstream hosts
 
-These prevented a complete downstream tracking inventory, including the HubSpot beacon and same-site tag loader. Each needs both explicit scanner trust and permitted environment egress before a fuller run.
+These requests were attempted but blocked by the scanner allowlist, not shown to be blocked by Safari. Script-loader presence does not prove a downstream pixel fired. Both scanner trust and environment egress must allow each destination before further testing.
 
-Three homepage MP4 requests failed under the combined network/TLS/size/timeout error category; their exact cause was not isolated. A hosted font returned HTTP 403, and `ajax-loader.gif` returned HTTP 404. The 403 source could be the origin or intermediary; it is not attributed to the website without further evidence.
+- www.googletagmanager.com
+- connect.facebook.net
+- s.pinimg.com
+- 132140.tctm.co
+- towntag.co
+- cdn.searchkings.ca
+- www.clickcease.com
+- www.google.com
+- ad.doubleclick.net
+- cnv.event.prod.bidr.io
+- www.clarity.ms
+- analytics.google.com
+- stats.g.doubleclick.net
 
-The scanner does not crawl other pages, submit forms, emulate geography, run Safari, wait through multi-day retention periods, execute service workers, or allow WebSockets/popups. Subresource HTTP redirects are blocked for safety; document redirects are replayed as validated navigations. Provider recognition is heuristic and incomplete; consult the full request list for unmatched endpoints.
+This includes attempted Meta fbevents.js, Google gtag/GTM scripts and collection endpoints, Clarity, Pinterest script URL, ClickCease, and additional unclassified scripts/beacons. Provider labels are heuristic; do not assign purposes to every unmatched host without inspecting it.
 
-## Recommended next checks
+## Other failures and limitations
 
-1. Permit the six newly discovered public hosts and repeat the scan, reviewing any additional downstream destinations.
-2. Identify the visible consent controls in the target geography and test separate fresh sessions for no interaction, reject, and accept; compare cookie and beacon activity.
-3. Repeat in actual Safari with third-party contexts and realistic interaction history. Check HubSpot identifier retention rather than relying on the declared 180-day expiry.
-4. Investigate `data.garageliving.com` DNS and served script, and compare Safari's network/cookie behavior for that endpoint.
-5. Review Secure-cookie configuration and the nontracking resource failures with the site owner/vendor.
+- https://20164216.fs1.hubspotusercontent-na1.net/hubfs/2016%20%20%204216/GarageLiving_June2021/fonts/jakmedia.woff2: HTTP 403.
+- https://www.garageliving.com/hubfs/GL_WEB_INTRO_Gen_v8k2_1.mp4: Network/TLS/size/timeout failure.
+- https://www.garageliving.com/hubfs/GL_WEB_INTRO_Gen_v8k_vertical4_1.mp4: Network/TLS/size/timeout failure.
+- https://www.garageliving.com/hubfs/Garage_Living_Collected%20Testimonials.mp4: Network/TLS/size/timeout failure.
+- https://www.garageliving.com/hubfs/hub_generated/template_assets/1/99808782353/1791316482985/ajax-loader.gif: HTTP 404.
 
-Raw evidence: [garageliving-browser.json](garageliving-browser.json). Reference: [WebKit tracking prevention](https://webkit.org/tracking-prevention/).
+The combined network/TLS/size/timeout error does not identify the exact media failure cause. HTTP 403 can originate at the site or an intermediary.
+
+- Chromium observations do not reproduce Safari ITP.
+- Provider and pixel matching are heuristic; tag managers are not proof of a fired tracking pixel.
+- The initial snapshot has no automated consent interaction; consent defaults may already permit tracking.
+- Document redirects are validated and replayed as fresh navigations; subresource redirects are blocked for destination safety.
+- Only the supplied page and optional selected consent interaction are scanned. Service workers, WebSockets and popups are blocked.
+- Cookie/storage values and URL query strings are excluded; names and URL paths can still contain identifiers.
+
+Next: allow and review the newly discovered public hosts; identify visible consent controls in the intended geography and compare fresh accept/reject sessions; run actual Safari tests; inspect the same-site endpoint DNS and onward processing before concluding whether ITP tracking cloaking rules apply.
+
+Raw evidence: [garageliving-browser.json](garageliving-browser.json). Reference: https://webkit.org/tracking-prevention/.
