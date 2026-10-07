@@ -57,7 +57,7 @@ Cookie values are omitted. Lifetimes below are remaining requested expirations a
 | FPLC | .garageliving.com | 1200 minutes | Yes | No | Lax |
 | FPGSID | .garageliving.com | 30 minutes | Yes | No | Strict |
 
-Script-write instrumentation recorded __hstc, hubspotutk, __hssrc, __hssc, _gcl_au, _ga_JZR8VW68BR and _ga. A temporary cookietest cookie was created and expired. FPID, FPLC and FPGSID were observed in response headers from data.garageliving.com/g/collect; they must not be treated as JavaScript-created cookies.
+Script-write instrumentation recorded __hstc, hubspotutk, __hssrc, __hssc, _gcl_au, _ga_JZR8VW68BR and _ga. A temporary cookietest cookie was created and expired. FPID, FPLC and FPGSID were observed in response headers from data.garageliving.com/g/collect; they must not be treated as JavaScript-created cookies. FPID requested Max-Age=63072000 (730 days), while Chromium stored an expiry of about 400 days; the table shows the stored browser expiry. FPLC requested 20 hours, and FPGSID requested 30 minutes.
 
 ## Storage
 
