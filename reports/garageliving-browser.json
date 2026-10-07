@@ -1,0 +1,1713 @@
+{
+  "mode": "browser",
+  "engine": "Chromium",
+  "url": "https://www.garageliving.com/",
+  "scannedAt": "2026-10-07T20:32:56.012Z",
+  "consent": {
+    "requested": true,
+    "clicked": false
+  },
+  "snapshots": [
+    {
+      "phase": "before-consent",
+      "cookies": [
+        {
+          "name": "__cf_bm",
+          "domain": ".garageliving.com",
+          "path": "/",
+          "expires": 1791406963,
+          "httpOnly": true,
+          "secure": true,
+          "sameSite": "None"
+        },
+        {
+          "name": "_cfuvid",
+          "domain": ".garageliving.com",
+          "path": "/",
+          "expires": -1,
+          "httpOnly": true,
+          "secure": true,
+          "sameSite": "None"
+        },
+        {
+          "name": "__cf_bm",
+          "domain": ".hubspotusercontent-na1.net",
+          "path": "/",
+          "expires": 1791406964.1106,
+          "httpOnly": true,
+          "secure": true,
+          "sameSite": "None"
+        },
+        {
+          "name": "__cf_bm",
+          "domain": ".hsadspixel.net",
+          "path": "/",
+          "expires": 1791406964.92932,
+          "httpOnly": true,
+          "secure": true,
+          "sameSite": "None"
+        },
+        {
+          "name": "__cf_bm",
+          "domain": ".hs-analytics.net",
+          "path": "/",
+          "expires": 1791406964.958363,
+          "httpOnly": true,
+          "secure": true,
+          "sameSite": "None"
+        },
+        {
+          "name": "__cf_bm",
+          "domain": ".hs-banner.com",
+          "path": "/",
+          "expires": 1791406964.960091,
+          "httpOnly": true,
+          "secure": true,
+          "sameSite": "None"
+        },
+        {
+          "name": "__cf_bm",
+          "domain": ".hubspot.com",
+          "path": "/",
+          "expires": 1791406965.223937,
+          "httpOnly": true,
+          "secure": true,
+          "sameSite": "None"
+        },
+        {
+          "name": "__hstc",
+          "domain": ".garageliving.com",
+          "path": "/",
+          "expires": 1806957165,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Lax"
+        },
+        {
+          "name": "hubspotutk",
+          "domain": ".garageliving.com",
+          "path": "/",
+          "expires": 1806957165,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Lax"
+        },
+        {
+          "name": "__hssrc",
+          "domain": ".garageliving.com",
+          "path": "/",
+          "expires": -1,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Lax"
+        },
+        {
+          "name": "__hssc",
+          "domain": ".garageliving.com",
+          "path": "/",
+          "expires": 1791406965,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Lax"
+        }
+      ],
+      "frames": [
+        {
+          "url": "https://www.garageliving.com/",
+          "localStorageKeys": [],
+          "sessionStorageKeys": [],
+          "scriptCookieWrites": [
+            {
+              "name": "cookietest",
+              "attributes": [
+                "SameSite=Strict",
+                ""
+              ]
+            },
+            {
+              "name": "cookietest",
+              "attributes": [
+                "SameSite=Strict",
+                "expires=Thu, 01-Jan-1970 00:00:01 GMT"
+              ]
+            },
+            {
+              "name": "__hstc",
+              "attributes": [
+                "expires=Mon, 05 Apr 2027 20:32:45 GMT",
+                "path=/",
+                "domain=.garageliving.com",
+                "SameSite=Lax"
+              ]
+            },
+            {
+              "name": "hubspotutk",
+              "attributes": [
+                "expires=Mon, 05 Apr 2027 20:32:45 GMT",
+                "path=/",
+                "domain=.garageliving.com",
+                "SameSite=Lax"
+              ]
+            },
+            {
+              "name": "__hssrc",
+              "attributes": [
+                "path=/",
+                "domain=.garageliving.com",
+                "SameSite=Lax"
+              ]
+            },
+            {
+              "name": "__hssc",
+              "attributes": [
+                "expires=Wed, 07 Oct 2026 21:02:45 GMT",
+                "path=/",
+                "domain=.garageliving.com",
+                "SameSite=Lax"
+              ]
+            }
+          ],
+          "scripts": [
+            {
+              "src": "https://data.garageliving.com/gtm.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": "https://js.hs-banner.com/v2/20164216/banner.js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://js.hsadspixel.net/pixels.js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://js.hs-analytics.net/analytics/1791405000000/20164216.js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://js.hubspot.com/web-interactives-embed.js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": null,
+              "inline": true,
+              "type": "classic"
+            },
+            {
+              "src": null,
+              "inline": true,
+              "type": "classic"
+            },
+            {
+              "src": "https://static.hotjar.com/c/hotjar-3779999.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": "(non-HTTP frame)",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://search.huble.com/scripts/dynamic_optimization.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": null,
+              "inline": true,
+              "type": "classic"
+            },
+            {
+              "src": "https://www.garageliving.com/hubfs/hub_generated/template_assets/1/99809983130/1791316486501/template_main.min.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": "https://www.garageliving.com/hs/hsstatic/jquery-libs/static-1.4/jquery/jquery-1.11.2.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": "https://www.garageliving.com/hs/hsstatic/jquery-libs/static-1.4/jquery-migrate/jquery-migrate-1.2.1.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": null,
+              "inline": true,
+              "type": "classic"
+            },
+            {
+              "src": "https://www.garageliving.com/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": "https://www.garageliving.com/hubfs/hub_generated/template_assets/1/205190728287/1791316457820/template_child.min.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": null,
+              "inline": true,
+              "type": "classic"
+            },
+            {
+              "src": "https://www.garageliving.com/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/209133235242/1783600556373/module_hd-menu.min.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": "https://www.garageliving.com/hs/hsstatic/keyboard-accessible-menu-flyouts/static-1.17/bundles/project.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/206072454276/1783600724773/module_hd-bento-hero-banner.min.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/209130822986/1783599380030/module_hd-bento-product-listing-2026.min.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/206124843888/1783586738043/module_hd-bento-switchback.min.js",
+              "inline": false,
+              "type": "classic"
+            },
+            {
+              "src": null,
+              "inline": true,
+              "type": "classic"
+            },
+            {
+              "src": null,
+              "inline": true,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://www.garageliving.com/hs/scriptloader/20164216.js",
+              "inline": false,
+              "type": "text/javascript"
+            },
+            {
+              "src": null,
+              "inline": true,
+              "type": "text/javascript"
+            },
+            {
+              "src": "https://www.garageliving.com/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js",
+              "inline": false,
+              "type": "classic"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://garageliving.com/",
+      "type": "document",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 301,
+      "host": "garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/",
+      "type": "document",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://20164216.fs1.hubspotusercontent-na1.net/hubfs/2016%20%20%204216/GarageLiving_June2021/fonts/jakmedia.woff2",
+      "type": "font",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "http-error",
+      "status": 403,
+      "host": "20164216.fs1.hubspotusercontent-na1.net",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/template_assets/1/99808782353/1791316482985/template_main.min.css",
+      "type": "stylesheet",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/template_assets/1/99810017130/1791316491614/template_theme-overrides.min.css",
+      "type": "stylesheet",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/template_assets/1/205191261016/1791316464805/template_child.css",
+      "type": "stylesheet",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/209133235242/1783600556373/module_hd-menu.min.css",
+      "type": "stylesheet",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/206072454276/1783600724773/module_hd-bento-hero-banner.min.css",
+      "type": "stylesheet",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/209130822986/1783599380030/module_hd-bento-product-listing-2026.min.css",
+      "type": "stylesheet",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/206124843888/1783586738043/module_hd-bento-switchback.min.css",
+      "type": "stylesheet",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/206297668455/1783362073738/module_hd-bento-testimonials.min.css",
+      "type": "stylesheet",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/198543287848/1781071507790/module_hd-bento-logo-slider.min.css",
+      "type": "stylesheet",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/209516383650/1783586762131/module_hd-multi-herobanner.min.css",
+      "type": "stylesheet",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/209133184606/1783586731573/module_hd-footer.min.css",
+      "type": "stylesheet",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs-fs/hubfs/garage_living_logo_rgb_bitmap.png",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/Designer_Series_2025/Carbon/GL-Designer-Series-Hero-Carbon.jpg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs/hsstatic/jquery-libs/static-1.4/jquery/jquery-1.11.2.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs/hsstatic/jquery-libs/static-1.4/jquery-migrate/jquery-migrate-1.2.1.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/template_assets/1/205190728287/1791316457820/template_child.min.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/209133235242/1783600556373/module_hd-menu.min.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs/hsstatic/keyboard-accessible-menu-flyouts/static-1.17/bundles/project.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/206072454276/1783600724773/module_hd-bento-hero-banner.min.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/209130822986/1783599380030/module_hd-bento-product-listing-2026.min.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/206124843888/1783586738043/module_hd-bento-switchback.min.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/template_assets/1/99809983130/1791316486501/template_main.min.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs/scriptloader/20164216.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://static.hotjar.com/c/hotjar-3779999.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "static.hotjar.com",
+      "thirdParty": true,
+      "provider": "Hotjar",
+      "category": "session analytics",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://search.huble.com/scripts/dynamic_optimization.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "search.huble.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs-fs/hubfs/230213_GL_web_Product_hero_v115.jpg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs-fs/hubfs/230213_GL_web_Product_hero_v116.jpg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs-fs/hubfs/230213_GL_web_Product_hero_v112.jpg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs-fs/hubfs/230213_GL_web_Product_hero_v120.jpg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs-fs/hubfs/230213_GL_web_Product_hero_v13.jpg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs-fs/hubfs/230213_GL_web_Product_hero_v19.jpg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hs-fs/hubfs/garage_living_logo_rgb_bitmap.png",
+      "type": "other",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/GL_WEB_INTRO_Gen_v8k2_1.mp4",
+      "type": "media",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Network/TLS/size/timeout failure",
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/GL_WEB_INTRO_Gen_v8k_vertical4_1.mp4",
+      "type": "media",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Network/TLS/size/timeout failure",
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/Garage_Living_Collected%20Testimonials.mp4",
+      "type": "media",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Network/TLS/size/timeout failure",
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://20164216.fs1.hubspotusercontent-na1.net/hubfs/20164216/raw_assets/public/GarageLiving_June2021/images/cd-top-arrow.svg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "20164216.fs1.hubspotusercontent-na1.net",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/209133235242/1783600556373/module_hd-menu.min.js",
+      "type": "other",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/206072454276/1783600724773/module_hd-bento-hero-banner.min.js",
+      "type": "other",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/module_assets/1/209130822986/1783599380030/module_hd-bento-product-listing-2026.min.js",
+      "type": "other",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hubspot.com/web-interactives-embed.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hubspot.com",
+      "thirdParty": true,
+      "provider": "HubSpot",
+      "category": "marketing",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hs-analytics.net/analytics/1791405000000/20164216.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hs-analytics.net",
+      "thirdParty": true,
+      "provider": "HubSpot Analytics",
+      "category": "analytics",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hsadspixel.net/pixels.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hsadspixel.net",
+      "thirdParty": true,
+      "provider": "HubSpot advertising pixel",
+      "category": "advertising",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hs-banner.com/v2/20164216/banner.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hs-banner.com",
+      "thirdParty": true,
+      "provider": "HubSpot consent",
+      "category": "consent",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://app.hubspot.com/content-tools-menu/api/v1/tools-menu/has-permission-json",
+      "type": "xhr",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 204,
+      "host": "app.hubspot.com",
+      "thirdParty": true,
+      "provider": "HubSpot",
+      "category": "marketing",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/GarageLiving_June2021/images/logo-hgtv.svg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/GarageLiving_June2021/images/logo-the-globe-and-mail.svg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/GarageLiving_June2021/images/logo-real-simple.svg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/GarageLiving_June2021/images/logo-architectural-digest.svg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/GarageLiving_June2021/images/logo-miami-herald.svg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/GarageLiving_June2021/images/logo-dwell.svg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/GarageLiving_June2021/images/logo-this-old-house.svg",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/hub_generated/template_assets/1/99808782353/1791316482985/ajax-loader.gif",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "http-error",
+      "status": 404,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hs-banner.com/v2/cf-location",
+      "type": "fetch",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hs-banner.com",
+      "thirdParty": true,
+      "provider": "HubSpot consent",
+      "category": "consent",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+      "type": "fetch",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "cta-service-cms2.hubspot.com",
+      "thirdParty": true,
+      "provider": "HubSpot",
+      "category": "marketing",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://perf-na1.hsforms.com/embed/v3/counters.gif",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "perf-na1.hsforms.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://sa.searchatlas.com/api/v2/otto-url-details/",
+      "type": "fetch",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "sa.searchatlas.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://track.hubspot.com/__ptq.gif",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "track.hubspot.com",
+      "thirdParty": true,
+      "provider": "HubSpot",
+      "category": "marketing",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://data.garageliving.com/gtm.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "data.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json",
+      "type": "xhr",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "api.hubapi.com",
+      "thirdParty": true,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://www.garageliving.com/hubfs/xapple-touch-icon.png.pagespeed.ic.T9q_Pcm2xp.webp",
+      "type": "other",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "www.garageliving.com",
+      "thirdParty": false,
+      "provider": null,
+      "category": "unclassified",
+      "pixelCandidate": false
+    }
+  ],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "source": "https://garageliving.com/",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "garageliving.com",
+        "expires": "Wed, 07 Oct 2026 21:02:43 GMT"
+      },
+      "lifetimeSeconds": 1799,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "_cfuvid",
+      "source": "https://garageliving.com/",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "garageliving.com"
+      },
+      "lifetimeSeconds": null,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://20164216.fs1.hubspotusercontent-na1.net/hubfs/2016%20%20%204216/GarageLiving_June2021/fonts/jakmedia.woff2",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hubspotusercontent-na1.net",
+        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+      },
+      "lifetimeSeconds": 1800,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://www.garageliving.com/hs/hsstatic/jquery-libs/static-1.4/jquery/jquery-1.11.2.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hubspotusercontent.com",
+        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+      },
+      "lifetimeSeconds": 1800,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://www.garageliving.com/hs/hsstatic/jquery-libs/static-1.4/jquery-migrate/jquery-migrate-1.2.1.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hubspotusercontent.com",
+        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+      },
+      "lifetimeSeconds": 1800,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://www.garageliving.com/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hubspotusercontent.com",
+        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+      },
+      "lifetimeSeconds": 1800,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://www.garageliving.com/hs/hsstatic/keyboard-accessible-menu-flyouts/static-1.17/bundles/project.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hubspotusercontent.com",
+        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+      },
+      "lifetimeSeconds": 1800,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://www.garageliving.com/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hubspotusercontent.com",
+        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+      },
+      "lifetimeSeconds": 1799,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://www.garageliving.com/hs/scriptloader/20164216.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hs-scripts.com",
+        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+      },
+      "lifetimeSeconds": 1799,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://www.garageliving.com/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hubspotusercontent.com",
+        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+      },
+      "lifetimeSeconds": 1799,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://js.hubspot.com/web-interactives-embed.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hubspot.com",
+        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+      },
+      "lifetimeSeconds": 1799,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://js.hsadspixel.net/pixels.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hsadspixel.net",
+        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+      },
+      "lifetimeSeconds": 1799,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://js.hs-analytics.net/analytics/1791405000000/20164216.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hs-analytics.net",
+        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+      },
+      "lifetimeSeconds": 1799,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://js.hs-banner.com/v2/20164216/banner.js",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hs-banner.com",
+        "expires": "Wed, 07 Oct 2026 21:02:44 GMT"
+      },
+      "lifetimeSeconds": 1799,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://app.hubspot.com/content-tools-menu/api/v1/tools-menu/has-permission-json",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hubspot.com",
+        "expires": "Wed, 07 Oct 2026 21:02:45 GMT"
+      },
+      "lifetimeSeconds": 1800,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    },
+    {
+      "name": "__cf_bm",
+      "source": "https://js.hs-banner.com/v2/cf-location",
+      "attributes": {
+        "httponly": true,
+        "samesite": "None",
+        "secure": true,
+        "path": "/",
+        "domain": "hs-banner.com",
+        "expires": "Wed, 07 Oct 2026 21:02:45 GMT"
+      },
+      "lifetimeSeconds": 1800,
+      "findings": [
+        {
+          "level": "itp",
+          "message": "Safari generally blocks third-party cookies, regardless of SameSite=None or Secure. Storage Access API exceptions require browser-specific conditions."
+        },
+        {
+          "level": "itp",
+          "message": "Observed Set-Cookie is server-set. The general seven-day cap on script-created cookies cannot be inferred from this header. ITP can apply additional limits to cloaked tracking responses."
+        }
+      ],
+      "phase": "before-consent",
+      "origin": "response-header"
+    }
+  ],
+  "trackers": [
+    {
+      "url": "https://static.hotjar.com/c/hotjar-3779999.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "static.hotjar.com",
+      "thirdParty": true,
+      "provider": "Hotjar",
+      "category": "session analytics",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hubspot.com/web-interactives-embed.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hubspot.com",
+      "thirdParty": true,
+      "provider": "HubSpot",
+      "category": "marketing",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hs-analytics.net/analytics/1791405000000/20164216.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hs-analytics.net",
+      "thirdParty": true,
+      "provider": "HubSpot Analytics",
+      "category": "analytics",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hsadspixel.net/pixels.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hsadspixel.net",
+      "thirdParty": true,
+      "provider": "HubSpot advertising pixel",
+      "category": "advertising",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hs-banner.com/v2/20164216/banner.js",
+      "type": "script",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hs-banner.com",
+      "thirdParty": true,
+      "provider": "HubSpot consent",
+      "category": "consent",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://app.hubspot.com/content-tools-menu/api/v1/tools-menu/has-permission-json",
+      "type": "xhr",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 204,
+      "host": "app.hubspot.com",
+      "thirdParty": true,
+      "provider": "HubSpot",
+      "category": "marketing",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://js.hs-banner.com/v2/cf-location",
+      "type": "fetch",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "loaded",
+      "status": 200,
+      "host": "js.hs-banner.com",
+      "thirdParty": true,
+      "provider": "HubSpot consent",
+      "category": "consent",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs",
+      "type": "fetch",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "cta-service-cms2.hubspot.com",
+      "thirdParty": true,
+      "provider": "HubSpot",
+      "category": "marketing",
+      "pixelCandidate": false
+    },
+    {
+      "url": "https://track.hubspot.com/__ptq.gif",
+      "type": "image",
+      "method": "GET",
+      "phase": "before-consent",
+      "outcome": "blocked",
+      "reason": "Host not in SCAN_ALLOWED_HOSTS",
+      "host": "track.hubspot.com",
+      "thirdParty": true,
+      "provider": "HubSpot",
+      "category": "marketing",
+      "pixelCandidate": false
+    }
+  ],
+  "warnings": [
+    "Consent selector could not be clicked; no post-consent comparison is available.",
+    "Some resources were blocked or failed. Missing downstream trackers must not be treated as absent."
+  ],
+  "limitations": [
+    "Chromium observations do not reproduce Safari ITP.",
+    "Provider and pixel matching are heuristic; tag managers are not proof of a fired tracking pixel.",
+    "The initial snapshot has no automated consent interaction; consent defaults may already permit tracking.",
+    "Document redirects are validated and replayed as fresh navigations; subresource redirects are blocked for destination safety.",
+    "Only the supplied page and optional selected consent interaction are scanned. Service workers, WebSockets and popups are blocked.",
+    "Cookie/storage values and URL query strings are excluded; names and URL paths can still contain identifiers."
+  ]
+}
